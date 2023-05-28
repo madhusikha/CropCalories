@@ -27,7 +27,7 @@ The project's approach involves the following steps:
 5.	Calorie Calculation: Finally, the calorie content of the predicted fruit or vegetable in the image is fetched from a dataset. 
 
 
-![Alt text]([image link](https://github.com/madhusikha/CropCalories/blob/main/project_pipeline.png))
+![Alt text](https://github.com/madhusikha/CropCalories/blob/main/project_pipeline.png)
 
 Figure 1: Project pipeline
 
