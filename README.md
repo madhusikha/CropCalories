@@ -11,11 +11,11 @@ CropCalories project aimed at predicti ng the calorie content of  fruits and veg
 
 # 1.	Project Overview
 CropCalories project aimed at predicting the calorie content of fruits and vegetables using image segmentation and machine learning algorithms. The project's main goal is to provide a tool that can be used for diet and nutrition tracking, meal planning, fitness training, and agriculture and food science research.
-a)	State-of-the-art Methods:
+## a)	State-of-the-art Methods:
 Hemalatha et.al. [3] implemented a multi-layer perceptron (MLP), convolutional neural network (CNN) for fruits and vegetables classification and compared its performance with support vector machine (SVM), K-nearest neighbors (KNN) and decision trees. NE Mimma et.al. [4] presented the development of automated fruit classification and detection systems using deep learning algorithms. The authors utilized two datasets with ResNet50 and VGG16 models and developed an Android application for real-time fruit classification and detection. Anish et.al. [5] developed an Android app called FruVegy which uses machine learning algorithms to identify and display nutritional values of 40 different fruits and vegetables. They created a dataset of 1600 images and achieved an accuracy of 98.1% using TensorFlow.
-b)	Inputs and Outputs of the project: 
+## b)	Inputs and Outputs of the project: 
 The inputs to the project are the images of fruits and vegetables, while the output is the calorie content of the predicted fruit or vegetable in the image.
-c)	Summary of Contributions: 
+## c)	Summary of Contributions: 
 The contributions of this project include the development of a pipeline that can take images of fruits and vegetables as inputs and predict their calorie content using machine learning algorithms. The project also demonstrates the potential use of image segmentation and machine learning in agriculture and food science research.
 
 # 2.	Approach
@@ -47,23 +47,10 @@ The qualitative visualization results of edge detection algorithms that were use
 Figure 2: Output images of Edge detection methods
 
 The accuracy of various edge detection algorithms with support vector classification (SVC) are presented in Table 1. Furthermore, a comparison of SVC with other machine learning algorithms, such as KNN, decision trees, and random forest, is provided in Table 2.
-Testing of the Model:
+## Testing of the Model:
 Testing was done by selecting a test image from a randomly chosen class. This test image is given as input to the trained model, the predictions of the model are tabulated in Table 1.
-Table 1: Summary of Edge detection methods with SVC(C=0.1, kernel='linear', gamma='auto')
-S.No.	Edge detection  method	Accuracy in %	Actual class	Predicted class	Calories
-1	Laplacian	96.66	Tomato	Tomato	20 cal per 1 tomato (111 g)
-2	Canny	96.93	Spinach	Spinach	78 cal per 1 bunch (340 g)
-3	Laplacian of Gaussian (LoG)	96.10	Orange	Orange	62 cal per 1 orange (131 g)
-4	Sobel	96.38	Corn	Corn	562 cal per 1 cup (154 g)
-5	Local Binary Pattern (LBP)	96.66	Carrot	Carrot	25 cal per 1 carrot (61 g)
 
-
-Table 2: Comparison of different ML algorithms with Canny edge detected featured input
-S.No.	Name of the ML algorithm	Accuracy in %
-1	SVC	96.93
-2	KNN	78.3
-3	Decision Trees	95.82
-4	Random Forest	96.38
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
 From the given results, it can be concluded that all the tested edge detection methods have achieved high accuracy ranging from 96.10% to 96.93%. This indicates that the image processing techniques used in this project are effective in extracting relevant features from the input images. Furthermore, the predicted classes of the fruits and vegetables closely match their actual classes, indicating that the machine learning models have learned to accurately classify the images based on their features. Additionally, the provided calorie information for each predicted class is helpful in providing further insights and practical applications of the model.
 Transfer Learning:
