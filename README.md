@@ -29,7 +29,6 @@ The project's approach involves the following steps:
 
 ![Alt text](https://github.com/madhusikha/CropCalories/blob/main/project_pipeline.png)
 
-Figure 1: Project pipeline
 
 # 3.	Experimental Protocol
 •	This project uses two datasets. The first dataset consists of images of fruits and vegetables, which are divided into 36 classes. The dataset contains 3114 images for training and 359 images for testing, with each image scaled to 64x64. The distribution of images for each class is almost balanced in training and testing sets.
@@ -40,7 +39,7 @@ Figure 1: Project pipeline
 # 4.	Results
 The qualitative visualization results of edge detection algorithms that were used as input to the machine learning models are presented in Figure 2. 
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![Alt text](https://github.com/madhusikha/CropCalories/blob/main/image_segmentation_results.png)
 
 (a) Original Image	(b) Laplacian 	(c) Canny	(d) LBP
 Figure 2: Output images of Edge detection methods
@@ -49,7 +48,7 @@ The accuracy of various edge detection algorithms with support vector classifica
 ## Testing of the Model:
 Testing was done by selecting a test image from a randomly chosen class. This test image is given as input to the trained model, the predictions of the model are tabulated in Table 1.
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![Alt text](https://github.com/madhusikha/CropCalories/blob/main/results_tables.png)
 
 From the given results, it can be concluded that all the tested edge detection methods have achieved high accuracy ranging from 96.10% to 96.93%. This indicates that the image processing techniques used in this project are effective in extracting relevant features from the input images. Furthermore, the predicted classes of the fruits and vegetables closely match their actual classes, indicating that the machine learning models have learned to accurately classify the images based on their features. Additionally, the provided calorie information for each predicted class is helpful in providing further insights and practical applications of the model.
 Transfer Learning:
