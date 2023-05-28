@@ -28,7 +28,7 @@ The project's approach involves the following steps:
 
 
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/[madhusikha]/[CropCalories]/blob/[main]/project_pipeline.png?raw=true)
 
 Figure 1: Project pipeline
 
