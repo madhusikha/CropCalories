@@ -1,7 +1,7 @@
 # CropCalories
 Calories of Fruits and Vegetables
 
-CropCalories project aimed at predicti ng the calorie content of  fruits and vegetables using image segmentation and machine learning algorithms. The project's main goal is to provide a tool that can be  used  for  diet  and  nutriti on  tracking,  meal  planning,  fitness  training,  and  agriculture  and  food science research. 
+CropCalories project aimed at predicting the calorie content of fruits and vegetables using image segmentation and machine learning algorithms. The project's main goal is to provide a tool that can be used for diet and nutrition tracking, meal planning, fitness  training, and agriculture and food science research. 
 
 # Datasets:
 1.  Kriti k Seth,  Fruits and Vegetables Image Recogniti on Dataset, Kaggle. (Last accessed on 05-07-2023) 
@@ -33,7 +33,7 @@ The project's approach involves the following steps:
 # 3.	Experimental Protocol
 •	This project uses two datasets. The first dataset consists of images of fruits and vegetables, which are divided into 36 classes. The dataset contains 3114 images for training and 359 images for testing, with each image scaled to 64x64. The distribution of images for each class is almost balanced in training and testing sets.
 •	The calorie content of predicted class is fetched using the dataset in [6]. The calories dataset [2] didn’t have all the necessary classes of fruits and vegetables and hence, I have added the missing fruits and vegetables calorie content to the dataset in [2] and uploaded the new dataset in Kaggle, it is available at [6].
-•	To evaluate the success of our models, I have used accuracy as the evaluation metric, which measures the percentage of correctly classified images in the validation set. I also visually inspected the processed images to ensure that the image segmentation methods were accurately extracting the edges and features of the fruits and vegetables.
+•	To evaluate the success of the models, I have used accuracy as the evaluation metric, which measures the percentage of correctly classified images in the validation set. I also visually inspected the processed images to ensure that the image segmentation methods were accurately extracting the edges and features of the fruits and vegetables.
 •	The project was implemented on Google Colab and Kaggle kernel using Python programming language and its libraries like scikit-learn, Numpy, Pandas, OpenCV and few other necessary libraries.
 
 # 4.	Results
@@ -52,7 +52,7 @@ Testing was done by selecting a test image from a randomly chosen class. This te
 
 From the given results, it can be concluded that all the tested edge detection methods have achieved high accuracy ranging from 96.10% to 96.93%. This indicates that the image processing techniques used in this project are effective in extracting relevant features from the input images. Furthermore, the predicted classes of the fruits and vegetables closely match their actual classes, indicating that the machine learning models have learned to accurately classify the images based on their features. Additionally, the provided calorie information for each predicted class is helpful in providing further insights and practical applications of the model.
 Transfer Learning:
-I have used convolutional neural networks and imported pre-trained EfficientNetB4 model for performing image classification but could achieve an accuracy of 96.1% only. Here, the raw images are fed into the neural network. Further fine-tuning of hyperparameters is required to improve image classification accuracy.
+In addition to classical ML algorithms, I have used convolutional neural networks by importing pre-trained EfficientNetB4 model for performing image classification but could achieve an accuracy of 96.1% only. Here, the raw images are fed into the neural network. Further fine-tuning of hyperparameters is required to improve image classification accuracy.
 
 # 5.	Analysis
 Based on the results obtained from the experiments, the edge detection algorithms such as Laplacian, Canny, LoG, Sobel, and LBP perform well in detecting edges of the given fruits and vegetables images. The results show that the accuracy of the classification model is high with all the tested edge detection methods. 
