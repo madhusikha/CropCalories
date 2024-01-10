@@ -1,7 +1,7 @@
 # CropCalories
 Calories of Fruits and Vegetables
 
-CropCalories project aimed at predicting the calorie content of fruits and vegetables using image segmentation and machine learning algorithms. The project's main goal is to provide a tool that can be used for diet and nutrition tracking, meal planning, fitness  training, and agriculture and food science research. 
+CropCalories project aimed at predicting the calorie content of fruits and vegetables using image segmentation and machine learning algorithms. The project's main goal is to provide a tool that can be used for diet and nutrition tracking, meal planning, fitness  training, agriculture and food science research. 
 
 # Datasets:
 1.  Kriti k Seth,  Fruits and Vegetables Image Recogniti on Dataset, Kaggle. (Last accessed on 05-07-2023) 
@@ -10,7 +10,7 @@ CropCalories project aimed at predicting the calorie content of fruits and veget
 
 
 # 1.	Project Overview
-CropCalories project aimed at predicting the calorie content of fruits and vegetables using image segmentation and machine learning algorithms. The project's main goal is to provide a tool that can be used for diet and nutrition tracking, meal planning, fitness training, and agriculture and food science research.
+CropCalories project aimed at predicting the calorie content of fruits and vegetables using image segmentation and machine learning algorithms. The project's main goal is to provide a tool that can be used for diet and nutrition tracking, meal planning, fitness training, agriculture and food science research.
 ## a)	State-of-the-art Methods:
 Hemalatha et.al. [3] implemented a multi-layer perceptron (MLP), convolutional neural network (CNN) for fruits and vegetables classification and compared its performance with support vector machine (SVM), K-nearest neighbors (KNN) and decision trees. NE Mimma et.al. [4] presented the development of automated fruit classification and detection systems using deep learning algorithms. The authors utilized two datasets with ResNet50 and VGG16 models and developed an Android application for real-time fruit classification and detection. Anish et.al. [5] developed an Android app called FruVegy which uses machine learning algorithms to identify and display nutritional values of 40 different fruits and vegetables. They created a dataset of 1600 images and achieved an accuracy of 98.1% using TensorFlow.
 ## b)	Inputs and Outputs of the project: 
